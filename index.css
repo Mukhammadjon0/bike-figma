@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@font-face {
+  font-family: "Reality Hyper";
+  src: url(./assets/fonts/Reality\ Hyper\ Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  font-family: "Poppins";
+  font-style: normal;
+  width: 1330px;
+  margin: auto;
+}
+img,
+button {
+  cursor: pointer;
+}
+nav {
+  background: #1b1a1f;
+  border-bottom: 1px solid gray;
+  position: sticky;
+  z-index: 20000;
+  top: 0;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 0;
+}
+.nav-links {
+  display: flex;
+  gap: 28px;
+}
+.nav-icons {
+  display: flex;
+  gap: 28px;
+}
+.nav-links a {
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+main {
+  background: #1b1a1f;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px 0;
+}
+.main-text {
+  font-family: "Reality Hyper";
+  font-style: normal;
+  text-align: end;
+  color: white;
+}
+.main-text h1 {
+  font-weight: 400;
+  font-size: 105px;
+  color: #ffffff;
+}
+.main-text h2 {
+  font-weight: 400;
+  font-size: 50px;
+  color: #ffffff;
+}
+.main-left {
+  font-family: "Poppins";
+  font-style: normal;
+}
+.main-left p {
+  font-weight: 300;
+  font-size: 22px;
+  color: #f1f1f1;
+  width: 398px;
+  margin-top: 40px;
+}
+.main-left button {
+  font-weight: 400;
+  font-size: 16px;
+  background: #eb4c56;
+  padding: 12px 32px;
+  border: none;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+section {
+  background: #e5e5e5;
+}
+.popular {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+.pop-left {
+  width: 627px;
+}
+.pop-left h1 {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 140%;
+  color: #000000;
+}
+.pop-right {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.pop-right h3 {
+  font-weight: 500;
+  font-size: 28px;
+  color: #000000;
+  border-bottom: 6px solid red;
+}
+.pop-right a {
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+  color: #2f2e30;
+}
+.rek {
+  justify-content: space-between;
+  display: flex;
+  padding: 150px 0;
+}
+
+.products {
+  background-color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  padding: 80px 0;
+}
+.products-head {
+  text-align: center;
+}
+
+.cards {
+  justify-content: space-between;
+  display: flex;
+  padding: 150px 0;
+}
+.card1 {
+  width: 580px;
+  height: 425px;
+  background-image: url(./assets/img/img3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.card-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 28px 40px;
+  gap: 16px;
+}
+.card-text p {
+  font-weight: 400;
+  font-size: 22px;
+  color: #000000;
+}
+.card-text b {
+  font-weight: 600;
+  font-size: 22px;
+  color: #000000;
+}
+.card2 {
+  position: relative;
+  width: 580px;
+  height: 654px;
+  background-image: url(./assets/img/img4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.products button {
+  font-weight: 300;
+  font-size: 20px;
+  padding: 16px 32px;
+  background: transparent;
+  border: 1px solid gray;
+  color: #1b1a1f;
+  display: block;
+  margin: 40px auto;
+}
+
+.support {
+  background: #e5e5e5;
+  padding: 80px 0;
+}
+.support-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer {
+  padding: 100px;
+  background: black;
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  gap: 280px;
+}
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+footer h2 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+}
+.input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  background: gray;
+  width: 300px;
+  justify-content: space-between;
+}
+.input input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-weight: 300;
+  color: white;
+  font-size: 16px;
+}
+.input input::placeholder {
+  color: white;
+}
+
+.footer-right {
+  display: flex;
+  gap: 180px;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer-links p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+.footer-links a {
+  font-weight: 300;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+}
